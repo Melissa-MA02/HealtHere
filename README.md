@@ -2,9 +2,10 @@
 Multilingual mobile app helping older migrants in Victoria find nearby health services, language-matched doctors, translation help, and offline emergency support. Built with Flutter, FastAPI, PostgreSQL and Azure. Monash FIT5120 Industry Experience project
 
 google dirve link: https://drive.google.com/drive/folders/1AsEVdpx2-AWBTKyGAeConWNeTmDWIlrr?usp=sharing 
-HealtHere
 
-Find care. Understand it. Get help fast — in your language.
+
+
+Find care. Understand it. Get help fast - in your language.
 
 HealtHere is a multilingual mobile app that helps older migrants in Victoria, Australia, find nearby health services, communicate with health workers, and act quickly in an emergency. It was built by a six-person team for the Monash University FIT5120 Industry Experience Studio (July – October 2026).
 
