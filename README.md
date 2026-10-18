@@ -7,7 +7,7 @@ google dirve link: https://drive.google.com/drive/folders/1AsEVdpx2-AWBTKyGAeCon
 
 Find care. Understand it. Get help fast - in your language.
 
-HealtHere is a multilingual mobile app that helps older migrants in Victoria, Australia, find nearby health services, communicate with health workers, and act quickly in an emergency. It was built by a six-person team for the Monash University FIT5120 Industry Experience Studio (July – October 2026).
+HealtHere is a multilingual mobile app that helps older migrants in Victoria, Australia, find nearby health services, communicate with health workers, and act quickly in an emergency. It was built by a six-person team for the Monash University FIT5120 Industry Experience Studio (July : October 2026).
 
 The Problem
 
@@ -21,12 +21,12 @@ Call for help in an emergency
 HealtHere brings these tasks into one simple, multilingual app.
 
 Features
-Health facility finder – search and map 4,000+ Victorian health facilities, with opening hours and contact details
-Language-matched practitioners – see which practices list doctors who speak the user's language (75 languages)
-Translation help – translate typed text, voice, and images into simpler, clearer language
-Emergency assistance – a built-in emergency phrase library that works offline, plus guided Call 000 support
-Multilingual interface – the app itself is available in multiple languages
-Reminders and health information – simple tools to support everyday health tasks
+Health facility finder : search and map 4,000+ Victorian health facilities, with opening hours and contact details
+Language-matched practitioners : see which practices list doctors who speak the user's language (75 languages)
+Translation help : translate typed text, voice, and images into simpler, clearer language
+Emergency assistance : a built-in emergency phrase library that works offline, plus guided Call 000 support
+Multilingual interface : the app itself is available in multiple languages
+Reminders and health information : simple tools to support everyday health tasks
 Tech Stack
 Layer	Technology
 Mobile app	Flutter
@@ -39,7 +39,7 @@ Text translation	Azure Translator v3
 Simplify / voice / image	Groq-hosted Qwen, Whisper, Qwen Vision
 Data Sources
 ID	Source	Used for
-D2	Geoscience Australia – National Health Services Directory extract	Core facility records
+D2	Geoscience Australia : National Health Services Directory extract	Core facility records
 D4 / D5	Vicmap (Victorian Government)	Location and facility features
 D12	Healthdirect Service Finder (manually collected)	Practitioner languages
 D13	Healthdirect Service Finder (scripted collection)	Opening hours, contact details
