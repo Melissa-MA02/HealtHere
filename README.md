@@ -20,28 +20,48 @@ Call for help in an emergency
 
 HealtHere brings these tasks into one simple, multilingual app.
 
-Features
+Features:
 Health facility finder : search and map 4,000+ Victorian health facilities, with opening hours and contact details
+
 Language-matched practitioners : see which practices list doctors who speak the user's language (75 languages)
+
 Translation help : translate typed text, voice, and images into simpler, clearer language
+
 Emergency assistance : a built-in emergency phrase library that works offline, plus guided Call 000 support
+
 Multilingual interface : the app itself is available in multiple languages
+
 Reminders and health information : simple tools to support everyday health tasks
-Tech Stack
+
+Tech Stack:
 Layer	Technology
+
 Mobile app	Flutter
+
 Backend API	Python, FastAPI
+
 Hosting	Azure App Service
+
 Database	PostgreSQL (Neon), Alembic migrations
+
 Data pipeline	Python ETL, nightly refresh via GitHub Actions
+
 Backup	Docker local PostgreSQL
+
 Text translation	Azure Translator v3
+
 Simplify / voice / image	Groq-hosted Qwen, Whisper, Qwen Vision
-Data Sources
+
+Data Sources:
+
 ID	Source	Used for
+
 D2	Geoscience Australia : National Health Services Directory extract	Core facility records
+
 D4 / D5	Vicmap (Victorian Government)	Location and facility features
+
 D12	Healthdirect Service Finder (manually collected)	Practitioner languages
+
 D13	Healthdirect Service Finder (scripted collection)	Opening hours, contact details
 
 The database holds 8 tables, including 4,000+ facilities and 2,900+ practitioner-language records.
